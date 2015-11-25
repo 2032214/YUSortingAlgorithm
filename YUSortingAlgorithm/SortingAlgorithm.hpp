@@ -3,7 +3,7 @@
 //  YUSortingAlgorithm
 //
 //  Created by BruceYu on 12/10/24.
-//  Copyright © 2015年 BruceYu. All rights reserved.
+//  Copyright © 2012年 BruceYu. All rights reserved.
 //
 
 #ifndef SortingAlgorithm_hpp
