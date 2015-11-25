@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18E246DB1C0565380097BF59 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 18E246DA1C0565380097BF59 /* README.md */; };
 		6706F8861C04A3B8004726DC /* SortingAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6706F8841C04A3B8004726DC /* SortingAlgorithm.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		18E246DA1C0565380097BF59 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6706F8771C04A1AD004726DC /* YUSortingAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = YUSortingAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		6706F8841C04A3B8004726DC /* SortingAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortingAlgorithm.cpp; sourceTree = "<group>"; };
 		6706F8851C04A3B8004726DC /* SortingAlgorithm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SortingAlgorithm.hpp; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		6706F8791C04A1AD004726DC /* YUSortingAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
+				18E246DA1C0565380097BF59 /* README.md */,
 				6706F8841C04A3B8004726DC /* SortingAlgorithm.cpp */,
 				6706F8851C04A3B8004726DC /* SortingAlgorithm.hpp */,
 			);
@@ -120,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E246DB1C0565380097BF59 /* README.md in Sources */,
 				6706F8861C04A3B8004726DC /* SortingAlgorithm.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +243,7 @@
 				6706F8801C04A1AD004726DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
