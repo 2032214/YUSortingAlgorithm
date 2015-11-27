@@ -452,6 +452,17 @@ void operate(long a[], int n)
 	主函数
  *******************************************************************************/
 int main(int argc, const char * argv[]) {
+    
+    time_t first, second;
+//    system("ipconfig");
+     time(&first);
+//    first = time(NULL);
+    sleep(2000);
+    time(&second);
+//    second = time(NULL);
+    printf("The difference is: %f seconds\n",difftime(second,first));
+    
+    
     // insert code here...
     cout<<"\n**              排序算法比较                      **"<<endl;
     cout<<"===================================================="<<endl;
